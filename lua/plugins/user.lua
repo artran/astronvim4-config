@@ -80,4 +80,15 @@ return {
       )
     end,
   },
+
+  {
+    "folke/noice.nvim",
+    opts = {
+      lsp = {
+        signature = {
+          enabled = false,
+        },
+      },
+    },
+  },
 }
