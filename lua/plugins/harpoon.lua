@@ -37,7 +37,7 @@ return {
     vim.keymap.set("n", "<leader>a", function() harpoon:list():add() end, { desc = "Add current file to harpoon" })
     vim.keymap.set(
       "n",
-      "<leader>r",
+      "<leader>R",
       function() harpoon:list():remove() end,
       { desc = "Remove current file from harpoon" }
     )
