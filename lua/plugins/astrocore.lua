@@ -75,6 +75,10 @@ return {
         -- setting a mapping to false will disable it
         -- ["<esc>"] = false,
       },
+      i = {
+        -- Map Ctrl+Enter to open a new line below from Insert mode
+        ["<C-v>"] = { "<C-o>o", desc = "Continue on next line" }, -- todo: Make this work with <C-CR>
+      },
     },
   },
 }
